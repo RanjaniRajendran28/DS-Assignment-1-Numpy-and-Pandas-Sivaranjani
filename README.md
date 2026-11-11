@@ -1,4 +1,3 @@
-# DS-Assignment-1-Numpy-and-Pandas-Sivaranjani
 Python Data Analysis Using NumPy and Pandas
 📌 Project Overview
 
@@ -92,3 +91,99 @@ The transaction dataset contains 10 records with the following columns:
 TransactionID
 ProductCategory
 Region
+Amount
+Tasks Performed
+
+Data Exploration
+
+Created a DataFrame named transactions.
+Displayed the complete DataFrame.
+Retrieved the first five and last five records.
+Inspected shape, column names, and data types.
+Displayed selected columns.
+Retrieved the last three columns using iloc.
+
+Data Analysis
+
+Filtered transactions where Region is North and Amount is greater than 200.
+Calculated product category counts using value_counts().
+Identified unique regions using unique().
+Grouped transactions by Region.
+Calculated the average transaction amount for each region.
+
+Data Manipulation
+
+Updated the Amount of TransactionID 102 to 165.
+Added a Discount column representing 10% of Amount.
+Removed the row with TransactionID 109.
+Deleted the Discount column.
+Pandas Functions and Methods
+Function / Method	Purpose
+pd.DataFrame()	Creates a DataFrame
+head()	Displays first five rows
+tail()	Displays last five rows
+shape	Returns dimensions
+columns	Returns column names
+dtypes	Displays data types
+info()	Displays DataFrame information
+iloc[]	Selects data by position
+loc[]	Selects data by labels or conditions
+value_counts()	Counts occurrences
+unique()	Finds unique values
+groupby()	Groups data
+mean()	Calculates average
+drop()	Deletes rows or columns
+⚙️ Installation and Setup
+Step 1: Install Python
+
+Download and install Python from:
+
+https://www.python.org/downloads/
+
+Step 2: Install Required Libraries
+
+Open your terminal or command prompt and execute:
+
+bash
+pip install numpy pandas jupyter
+
+Step 3: Clone the Repository
+bash
+git clone <your-repository-url>
+
+Step 4: Navigate to the Project Folder
+bash
+cd Python-Data-Analysis
+
+Step 5: Launch Jupyter Notebook
+bash
+jupyter notebook
+
+
+Open the required notebook and execute the cells.
+
+Alternatively, you can run the notebooks using Google Colab.
+
+📚 Key Learnings
+
+Through these exercises, I gained practical experience in:
+
+Numerical computing with NumPy.
+Creating and manipulating arrays.
+Understanding Series and DataFrame structures.
+Data selection and indexing.
+Boolean filtering and conditional operations.
+Statistical calculations.
+Grouping and aggregating datasets.
+Adding, updating, and deleting data.
+🚀 Conclusion
+
+This project provides hands-on experience with the fundamental concepts of Python data analysis using NumPy and Pandas.
+
+These concepts form the foundation for further learning in data science, data analytics, and machine learning.
+
+
+
+GitHub: Your GitHub Profile
+
+⭐ If you find this project useful, consider giving the repository a star!
